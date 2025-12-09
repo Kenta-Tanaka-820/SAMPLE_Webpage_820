@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>sample_web_page</title>
+        <link rel="stylesheet" href="css/my_style2-1.css">
+    </head>
+    <body>
+        <header class="container">
+         <h1>佐賀大学データサイエンスコース 田中健太</h1>
+
+         <nav id="navi">
+             <ul>
+                <li>
+                    <a href="index.html">トップページ</a>
+                </li>
+                <li class="current">
+                    <a href="about.html">アルバム紹介</a>
+                </li>
+                <li>
+                    <a href="prof.html">メンバー紹介</a>
+                </li>
+             </ul>
+         </nav>
+           
+        </header>
+
+        <section class="container">
+            <h2 class="contents_title">おすすめのアルバム紹介!!!</h2>
+            <section>
+                <h3>sample Rendez-Vous</h3>
+                <div class="contents_message">
+                    <ol>
+                        <li>sample Rendez-Vous</li>
+                        <li>MOS Romance</li>
+                        <li>わたしたちの蜃気楼</li>
+                        <li>ビニール袋</li>
+                        <li>破壊</li>
+                        <li>rowlove</li>
+                        <li>流れるPOOL</li>
+                        <li>ウィンターサン・スカイダイビング</li>
+                    </ol>
+                </div>
+            </section>
+        </section>
+        <section class="container">
+            <h3>その他アルバムについて</h3>
+            <div class="contents_message">
+                他にも、Sanpo、seremon、THE GREATER than UNKNOWNなど名盤が盛りだくさん!!!
+                <br>
+                <a href="https://exaple0.com/" target="_blank" rel="noopener noreferrer">【ディスコグラフィはこちら】</a>
+                <br>
+                <a href="https://example1.com/" target="_blank" rel="noopener noreferrer">【ライブについてはこちら】</a>
+            </div>
+        </section>
+        <section class="container">
+            <p><button id="change">表示</button></p>
+            <p id="info" class="contact">その他詳しい情報について</p>
+              <script>
+                var element = document.getElementById("info");
+                var button = document.getElementById("change");
+                button.addEventListener("click",function(){
+                    element.innerHTML = "samplegnuホームページ(https://example0.jp/)をご覧ください"
+                })
+              </script>
+
+
+        </section>
+    </body>
+ </html>
