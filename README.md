@@ -32,8 +32,8 @@ Webの基本的な構造を理解することを目的とし、複数ページ�
 ```javascript
 var element = document.getElementById("info");
 var button = document.getElementById("change");
-button.addEventListener("click", function() {
-    element.innerHTML = "kinggnuホームページ(https://kinggnu.jp/)をご覧ください";
-});
+button.addEventListener("click",function(){
+element.innerHTML = "samplegnuホームページ(https://example0.jp/)をご覧ください"
+})
 
 
